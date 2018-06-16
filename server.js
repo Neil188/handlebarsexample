@@ -1,11 +1,17 @@
 const express = require('express');
+const handlebars  = require('express-handlebars');
 const app = express();
 
-// app.use('/public', express.static('public)'));
+app.engine('handlebars', handlebars({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
 app.use( express.static('public') );
 
 app.get('/', function (req,res) {
-    res.send('hello world');
+    res.render('index', {
+        name: 'World',
+        time: new Date().toTimeString(),
+    });
 });
 
 const port = Number( process.env.port || 5000);
