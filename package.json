@@ -1,7 +1,7 @@
 {
   "name": "handlebars",
   "version": "0.1.0",
-  "description": "",
+  "description": "A basic example of express + handlebars",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./server.js"
