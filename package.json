@@ -10,15 +10,15 @@
   "author": "N Lupton",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-html": "^4.0.3",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.1",
     "nodemon": "^1.17.5",
-    "prettier": "^1.13.5"
+    "prettier": "^1.13.7"
   },
   "dependencies": {
     "express": "^4.16.3",
